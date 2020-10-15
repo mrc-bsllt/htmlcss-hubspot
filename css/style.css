@@ -137,7 +137,9 @@ i {
 #header-mid nav ul li:hover {
   background-color: #f5f8fa;
   border-bottom: 2px solid black;
-}#header-mid nav ul li i {
+  cursor: pointer;
+}
+#header-mid nav ul li i {
   margin-left: 10px;
 }
 /* /header mid */
