@@ -36,6 +36,15 @@ a,
 i {
   color: #33475b;
 }
+.button {
+  padding: 10px;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 400;
+  border: 2px solid #ff7a59;
+  border-radius: 5px;
+  background-color: #ff7a59;
+}
 #separator {
   height: 100px;
   background-color: #afebe4;
@@ -48,8 +57,7 @@ i {
 
 /* header top */
 #header-top {
-  height: 70px;
-  line-height: 70px;
+  line-height: 80px;
   border-bottom: 1px solid #33475b;
 }
 #header-top .lang-contact {
@@ -65,9 +73,23 @@ i {
 #header-top .register-input {
   width: 30%;
 }
+.register-input div button,
+.register-input div li {
+  margin-right: 25px;
+}
 .register-input .search button {
+  font-size: 20px;
+  color: #0da9c0;
+  background-color: #f5f8fa;
   border: none;
   cursor: pointer;
+}
+.buttons-input ul li:first-child a {
+  color: #ff7a59;
+  background-color: #ffffff;
+}
+.buttons-input ul li a:hover {
+  text-decoration: none;
 }
 /* /header top */
 
