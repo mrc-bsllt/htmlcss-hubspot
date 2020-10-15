@@ -19,6 +19,23 @@ body {
 #footer-bottom {
   padding: 0 10%;
 }
+.inline-block {
+  display: inline-block;
+}
+a {
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  list-style: none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a,
+i {
+  color: #33475b;
+}
 #separator {
   height: 100px;
   background-color: #afebe4;
@@ -28,10 +45,33 @@ body {
 /* /css generale */
 
 /* css header */
+
+/* header top */
 #header-top {
-  height: 60px;
+  height: 70px;
+  line-height: 70px;
   border-bottom: 1px solid #33475b;
 }
+#header-top .lang-contact {
+  width: 69%;
+}
+#header-top .lang-contact li:first-child a {
+  padding-right: 20px;
+  border-right: 2px solid #33475b;
+}
+#header-top .lang-contact li:last-child i {
+  padding-left: 20px;
+}
+#header-top .register-input {
+  width: 30%;
+}
+.register-input .search button {
+  border: none;
+  cursor: pointer;
+}
+/* /header top */
+
+
 #header-mid {
   height: 60px;
   background-color: #ffffff;
