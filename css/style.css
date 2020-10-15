@@ -65,6 +65,7 @@ footer {
 }
 #footer-top {
   height: 400px;
+  border-bottom: 1px solid #7c98b6;
 }
 #footer-bottom {
   height: 100px;
