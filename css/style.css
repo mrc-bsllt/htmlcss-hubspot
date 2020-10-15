@@ -63,11 +63,31 @@ p {
   border-radius: 5px;
   background-color: #ff7a59;
 }
+.buttons-input ul li a:hover,
+#header-mid nav ul li:hover a,
+#header-bottom .text-section a.button:hover {
+  text-decoration: none;
+}
 #separator {
   height: 100px;
   background-color: #afebe4;
   border-top: 4px solid #33475b;
   border-bottom: 4px solid #33475b;
+}
+.white-box {
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+#main-top-top,
+#main-top-mid .left-size {
+  text-align: center;
+}
+.center-align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* /css generale */
 
@@ -113,10 +133,6 @@ p {
   color: #ff7a59;
   background-color: #ffffff;
 }
-.buttons-input ul li a:hover,
-#header-mid nav ul li:hover a {
-  text-decoration: none;
-}
 /* /header top */
 /* header mid */
 #header-mid {
@@ -124,7 +140,6 @@ p {
   line-height: 78px;
   margin-top: 80px;
   background-color: #ffffff;
-  border-bottom: 2px solid black;
 }
 #header-mid .logo {
   width: 49%;
@@ -163,7 +178,6 @@ p {
 }
 #header-bottom .text-section {
   width: 38%;
-  height: 450px;
   /* margin-top: 80px; */
 }
 #header-bottom .text-section a {
@@ -172,10 +186,41 @@ p {
 /* /css header */
 
 /* css main */
+/* css main top */
 #main-top {
-  height: 1000px;
+  height: 1500px;
   background-color: #f5f8fa;
 }
+#main-top-top {
+  width: 55%;
+  height: 30%;
+  margin: auto;
+}
+#main-top-top > img {
+  height: 180px;
+  margin-top: 50px;
+}
+#main-top-top h2 {
+  font-size: 35px;
+}
+#main-top-mid {
+  height: 20%;
+}
+#main-top-mid .left-size {
+  width: 30%;
+  height: 100%;
+}
+#main-top-mid .right-size {
+  width: 70%;
+  height: 100%;
+  background-color: yellow;
+}
+#main-top-bottom {
+  height: 50%;
+  background-color: green;
+}
+/* /css main top */
+
 #main-mid {
   height: 500px;
   background-image: linear-gradient(to right, #00acb6, #00baa7);
