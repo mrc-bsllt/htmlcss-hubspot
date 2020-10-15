@@ -240,19 +240,30 @@ p {
   padding: 50px 0;
 }
 #main-top-mid .right-size .block-crm-right {
-  width: 65%;
+  width: 70%;
 }
 #main-top-mid .right-size p{
   margin: 20px 0;
 }
-#main-top-mid .right-size h4 {
+#main-top-mid .right-size .block-crm-right h4 {
   width: 33%;
   font-size: 20px;
   text-transform: uppercase;
 }
-#main-top-mid .right-size .hr {
+#main-top-mid .right-size .block-crm-right hr {
   width: 62%;
+  margin-bottom: 5px;
   border-top: 2px solid #33475b;
+}
+#main-top-mid .right-size .block-crm-right li {
+  margin-top: 30px;
+}
+#main-top-mid .right-size .block-crm-right li i {
+  color: #ff7a59;
+}
+#main-top-mid .right-size .block-crm-right li a {
+  margin: 0 20px;
+  font-weight: lighter;
 }
 #main-top-bottom {
   height: 50%;
