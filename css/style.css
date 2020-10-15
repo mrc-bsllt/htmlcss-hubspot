@@ -41,6 +41,12 @@ a:hover {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 25px;
+}
 p {
   margin: 50px 0;
   line-height: 30px;
@@ -51,6 +57,7 @@ i,
 h1,
 h2,
 h3,
+h4,
 p {
   color: #33475b;
 }
@@ -200,20 +207,52 @@ p {
   height: 180px;
   margin-top: 50px;
 }
-#main-top-top h2 {
-  font-size: 35px;
-}
 #main-top-mid {
   height: 20%;
 }
 #main-top-mid .left-size {
+  position: relative;
   width: 30%;
   height: 100%;
+}
+#main-top-mid .left-size .block-crm-left {
+  width: 180px;
+  height: 190px;
+}
+#main-top-mid .left-size .block-crm-left .img-crm {
+  width: 100%;
+  height: 100px;
+  background-image: url("../img/crm.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#main-top-mid .left-size .block-crm-left .button {
+  margin-top: 20px;
+  padding: 25px 55px;
+}
+#main-top-mid .left-size .block-crm-left form:hover input {
+    cursor: pointer;
 }
 #main-top-mid .right-size {
   width: 70%;
   height: 100%;
-  background-color: yellow;
+  padding: 50px 0;
+}
+#main-top-mid .right-size .block-crm-right {
+  width: 65%;
+}
+#main-top-mid .right-size p{
+  margin: 20px 0;
+}
+#main-top-mid .right-size h4 {
+  width: 33%;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#main-top-mid .right-size .hr {
+  width: 62%;
+  border-top: 2px solid #33475b;
 }
 #main-top-bottom {
   height: 50%;
