@@ -5,6 +5,68 @@
 }
 
 body {
-  padding: 0 10%;
   background-color: #f5f8fa;
 }
+
+/* css generale */
+#header-top,
+#header-mid,
+#header-bottom,
+#main-top,
+#main-mid,
+#main-bottom,
+#footer-top,
+#footer-bottom {
+  padding: 0 10%;
+}
+#separator {
+  height: 100px;
+  background-color: #afebe4;
+  border-top: 4px solid #33475b;
+  border-bottom: 4px solid #33475b;
+}
+/* /css generale */
+
+/* css header */
+#header-top {
+  height: 60px;
+  border-bottom: 1px solid #33475b;
+}
+#header-mid {
+  height: 60px;
+  background-color: #ffffff;
+}
+#header-bottom {
+  height: 700px;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* /css header */
+
+/* css main */
+#main-top {
+  height: 1000px;
+}
+#main-mid {
+  height: 500px;
+  background-image: linear-gradient(to right, #00acb6, #00baa7);
+}
+#main-bottom {
+  height: 500px;
+  background-color: #ffffff;
+}
+/* /css main */
+
+/* css footer */
+footer {
+  background-color: #2d3e50;
+}
+#footer-top {
+  height: 400px;
+}
+#footer-bottom {
+  height: 100px;
+}
+/* /css footer */
