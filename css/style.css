@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  padding: 0 10%;
+  background-color: #f5f8fa;
+}
