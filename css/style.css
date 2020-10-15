@@ -97,7 +97,19 @@ i {
 /* header mid */
 #header-mid {
   height: 80px;
+  margin-top: 80px;
   background-color: #ffffff;
+}
+#header-mid .logo {
+  width: 49%;
+  height: 100%;
+}
+#header-mid .logo img {
+  width: 50px;
+}
+#header-mid nav {
+  width: 49%;
+  height: 100%;
 }
 /* /header mid */
 #header-bottom {
