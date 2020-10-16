@@ -10,23 +10,10 @@
 /* css generale */
 
 /* spostamenti */
-.container-80 {
-  height: 100%;
-  width: 80%;
-  margin: auto;
-}
-.container-75 {
-  width: 75%;
-  margin: auto;
-}
 .container-70 {
+  height: 100%;
   width: 70%;
-}
-.container-50 {
-  width: 50%;
-}
-.container-40 {
-  width: 40%;
+  margin: auto;
 }
 .inline-block li {
   display: inline-block;
@@ -294,16 +281,28 @@ p.small {
   text-align: center;
   background-image: linear-gradient(to right, #00acb6, #00baa7);
 }
-#main-mid .container-80 {
+#main-mid .container-70 {
   padding-top: 40px;
 }
 #main-mid h2,
 #main-mid p {
   color: #ffffff;
 }
+#main-mid p {
+  margin-bottom: 50px;
+}
 #main-mid .main-mid-bottom .row {
   height: 150px;
-  background-color: red;
+}
+.main-mid-bottom .row .square {
+  width: calc(100% / 4);
+  height: 100%;
+}
+.main-mid-bottom .row .square {
+border-right: 1px solid #ffffff;
+}
+.main-mid-bottom .row .square:last-child {
+  border-right: none;
 }
 #main-mid .main-mid-bottom .row:first-child {
   border-bottom: 1px solid #ffffff;
