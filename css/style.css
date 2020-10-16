@@ -82,7 +82,6 @@ p {
   border-bottom: 4px solid #33475b;
 }
 .white-box {
-  margin-bottom: 50px;
   background-color: #ffffff;
   border-radius: 5px;
 }
@@ -127,7 +126,7 @@ p {
 }
 .register-input div button,
 .register-input div li {
-  margin-right: 25px;
+  margin-left: 25px;
 }
 .register-input .search button {
   font-size: 20px;
@@ -195,20 +194,21 @@ p {
 /* css main */
 /* css main top */
 #main-top {
-  height: 1500px;
   background-color: #f5f8fa;
 }
+/* css main-top-top */
 #main-top-top {
   width: 55%;
-  height: 30%;
   margin: auto;
 }
 #main-top-top > img {
   height: 180px;
   margin-top: 50px;
 }
+/* /css main-top-top */
+/* css main-top-mid */
 #main-top-mid {
-  height: 20%;
+  height: 300px;
 }
 #main-top-mid .left-size {
   position: relative;
@@ -236,7 +236,6 @@ p {
 }
 #main-top-mid .right-size {
   width: 70%;
-  height: 100%;
   padding: 50px 0;
 }
 #main-top-mid .right-size .block-crm-right {
@@ -265,10 +264,18 @@ p {
   margin: 0 20px;
   font-weight: lighter;
 }
-#main-top-bottom {
-  height: 50%;
-  background-color: green;
+/* /css main-top-mid */
+/* css main-top-bottom */
+#main-top-bottom .column {
+  width: 30%;
+  height: 700px;
+  margin: 50px 0;
 }
+#main-top-bottom .column:nth-child(2) {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* /css main-top-bottom */
 /* /css main top */
 
 #main-mid {
