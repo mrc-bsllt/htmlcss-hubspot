@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-size: 13px;
   color: #33475b;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* css generale */
@@ -13,6 +13,10 @@
 .container-70 {
   height: 100%;
   width: 70%;
+  margin: auto;
+}
+.row-60 {
+  width: 60%;
   margin: auto;
 }
 .inline-block li {
@@ -68,8 +72,11 @@ button.btn:hover {
 h1 {
   font-size: 44px;
 }
+h1.small {
+  font-size: 38px;
+}
 h2 {
-  font-size: 28px;
+  font-size: 25px;
 }
 h3 {
   font-size: 20px;
@@ -93,9 +100,9 @@ h6 {
 }
 p {
   margin: 30px 0;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 p.small {
   font-size: 0.8em
@@ -246,14 +253,13 @@ p.small {
   height: 100%;
 }
 .white-box .learn-side  img {
-  width: 110px;
+  width: 120px;
   margin: 10px 0;
   display: block;
 }
 .white-box .learn-side  a{
-  width: 130px;
-  text-align: center;
   display: block;
+  margin-top: 10px;
 }
 .white-box .crm-side {
   position: relative;
@@ -264,10 +270,10 @@ p.small {
   width: 70%;
 }
 .crm-side p {
-  margin: 30px 0;
+  margin: 25px 0;
 }
-.crm-side ul li {
-  margin: 30px 0;
+.crm-side h4 {
+  margin-bottom: 30px;
 }
 /* /css main-top-mid */
 
@@ -361,7 +367,14 @@ p.small {
 }
 #main-bottom {
   height: 500px;
+  padding-top: 40px;
   background-color: #ffffff;
+}
+#main-bottom .row-60 .row-60-left {
+  width: 40%;
+}
+#main-bottom .row-60 .row-60-right {
+  width: 60%;
 }
 /* /css main mid bottom */
 
