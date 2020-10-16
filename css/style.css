@@ -83,6 +83,10 @@ p {
 p.small {
   font-size: 0.8em
 }
+.entity {
+  color: #ffffff;
+  font-size: 20px;
+}
 .white-box {
   background-color: #ffffff;
   border-radius: 5px;
@@ -299,7 +303,18 @@ p.small {
   height: 100%;
 }
 .main-mid-bottom .row .square {
+  padding-top: 10px;
 border-right: 1px solid #ffffff;
+}
+.main-mid-bottom .row .square img {
+  margin-bottom: 10px;
+}
+.main-mid-bottom .row .square h5 {
+  color: #ffffff;
+  font-size: 35px;
+}
+.row:last-child .square:first-child img {
+  width: 130px;
 }
 .main-mid-bottom .row .square:last-child {
   border-right: none;
