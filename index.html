@@ -14,33 +14,38 @@
         <!-- header top - lingua, contatti e ricerca -->
         <div id="header-top">
 
-          <div class="lang-contact inline-block">
-            <ul>
-              <li class="inline-block">
-                <i class="fas fa-globe-europe"></i>
-                <a href="#">English</a>
-              </li>
-              <li class="inline-block">
-                <i class="fas fa-user"></i>
-                <a href="#">Contact Us</a>
-              </li>
-            </ul>
-          </div>
+          <div class="container-80 clearfix">
 
-          <div class="register-input inline-block">
-            <div class="search inline-block">
-              <button type="button" class="fas fa-search"></button>
-            </div>
-            <div class="buttons-input inline-block">
-              <ul>
-                <li class="inline-block">
-                  <a href="#" class="button">Log in</a>
+            <!-- parte sinistra di header-top -->
+            <div class="lang-contact float-left">
+              <ul class="inline-block">
+                <li>
+                  <i class="fas fa-globe-europe"></i>
+                  <a href="#">English</a>
                 </li>
-                <li class="inline-block">
-                  <a href="#" class="button">GethubspotFre</a>
+                <li>
+                  <i class="fas fa-user"></i>
+                  <a href="#">Contact Us</a>
                 </li>
               </ul>
             </div>
+            <!-- /parte sinistra di header-top -->
+
+            <!-- parte destra di header-top -->
+            <div class="register-input float-right">
+              <ul class="inline-block">
+                <li>
+                  <a href="#"><i class="fas fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-white btn-small">Log in</a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-orange btn-small">GethubspotFree</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /parte destra di header-top -->
           </div>
 
         </div>
@@ -48,55 +53,63 @@
 
         <!-- header mid - logo e navigazione -->
         <div id="header-mid">
-          <div class="logo inline-block">
-            <img src="img/logo.svg" alt="foto logo">
+          <div class="container-80 clearfix">
+
+            <div class="header-mid-left float-left">
+              <img src="img/logo.svg" alt="immagine logo" id="logo">
+            </div>
+
+            <div class="header-mid-right float-right">
+              <ul class="inline-block">
+                <li>
+                  <a href="#">Software</a>
+                  <i class="fas fa-chevron-down"></i>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li>
+                  <a href="#">Resources</a>
+                  <i class="fas fa-chevron-down"></i>
+                </li>
+                <li>
+                  <a href="#">Partners</a>
+                  <i class="fas fa-chevron-down"></i>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                  <i class="fas fa-chevron-down"></i>
+                </li>
+              </ul>
+            </div>
+
           </div>
-          <nav class="inline-block">
-            <ul>
-              <li class="inline-block">
-                <a href="#">Software</a>
-                <i class="fas fa-angle-down"></i>
-              </li>
-              <li class="inline-block"><a href="#">Pricing</a></li>
-              <li class="inline-block">
-                <a href="#">Resources</a>
-                <i class="fas fa-angle-down"></i>
-              </li>
-              <li class="inline-block">
-                <a href="#">partners</a>
-                <i class="fas fa-angle-down"></i>
-              </li>
-              <li class="inline-block">
-                <a href="#">About</a>
-                <i class="fas fa-angle-down"></i>
-              </li>
-            </ul>
-          </nav>
+
         </div>
         <!-- /header mid - logo e navigazione -->
 
         <!-- header bottom - immagine e descrizione -->
         <div id="header-bottom">
+          <div class="container-80">
 
-            <section class="text-section">
+            <div class="text-section">
+
               <h1>There's a better way to grow.</h1>
               <p>
                 Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer."
               </p>
-              <a href="#" class="button">GetHubspotFree</a>
-              <p>
+              <a href="#" class="btn btn-orange btn-big">GetHubspotFree</a>
+              <p class="small">
                 Get started with FREE tools, and upgrade as you grow.
               </p>
-            </section>
+            </div>
+
+          </div>
 
         </div>
         <!-- /header bottom - immagine e descrizione -->
     </header>
     <!-- /header -->
-
-    <!-- spazio tra header e main -->
-    <div id="separator"></div>
-    <!-- /spazio tra header e main -->
 
     <!-- main -->
     <main>
@@ -104,54 +117,33 @@
       <!-- main top - sfondo grigio con sezione a tre colonne in basso -->
       <section id="main-top">
 
-        <!-- immagine e titolo -->
-        <section id="main-top-top">
-          <img src="img/integrations.png" alt="foto integrations">
-          <h2>Powerful Alone. Better Togheter</h2>
-          <p>
-            HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used togheter.
-          </p>
-        </section>
+        <div class="container-80">
+
+          <!-- immagine e titolo -->
+          <section id="main-top-top">
+            <img src="img/integrations.png" alt="foto integrations">
+            <h2>Powerful Alone. Better Togheter</h2>
+            <p>
+              HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used togheter.
+            </p>
+          </section>
+
+        </div>
         <!-- /immagine e titolo -->
 
         <!-- riga orizzontale -->
-        <section id="main-top-mid" class="white-box clearfix">
+        <section id="main-top-mid">
 
-          <div class="left-size float-left">
+          <div class="container-80 white-box clearfix">
 
-            <div class="block-crm-left center-align">
-              <div class="img-crm"></div>
-              <form>
-                <input type="button" class="button" value="Learn more">
-              </form>
+            <div class="main-top-mid-left float-left">
+              <div class="center-align">
+                <div id="book-image"></div>
+                <button type="button" class="btn btn-orange btn-big">GetHubspotFree</button>
+              </div>
             </div>
 
-          </div>
-
-          <div class="right-size float-left">
-
-            <div class="block-crm-right">
-              <h3>Free HubSpot CRM</h3>
-              <p>
-                Everything you need to organize, track, and build better relationships with leads and<br>
-                customers. Yes, it's 100% free. Forever.
-              </p>
-              <h4 class="inline-block">popular feature</h4>
-              <hr class="inline-block">
-              <ul class="clearfix">
-                <li class="float-left">
-                  <i class="fas fa-check-circle"></i>
-                  <a href="#">Contact Insight</a>
-                </li>
-                <li class="float-left">
-                  <i class="fas fa-check-circle"></i>
-                  <a href="#">Deals</a>
-                </li>
-                <li class="float-left">
-                  <i class="fas fa-check-circle"></i>
-                  <a href="#">Task</a>
-                </li>
-              </ul>
+            <div class="main-top-mid-right float-left">
             </div>
 
           </div>
