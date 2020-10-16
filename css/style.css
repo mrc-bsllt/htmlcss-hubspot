@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 13px;
   color: #33475b;
   font-family: 'Roboto', sans-serif;
 }
@@ -63,31 +64,30 @@ a {
 a:hover {
   text-decoration: underline;
 }
+button.btn:hover {
+  cursor: pointer;
+}
 /* /sezione stilistica */
 h1 {
-  font-size: 50px;
+  font-size: 44px;
 }
 h2 {
-  font-size: 32px;
+  font-size: 28px;
 }
 h3 {
-  font-size: 25px;
+  font-size: 20px;
 }
 h4 {
-  font-size: 20px;
+  font-size: 13px;
 }
 h4.uppercase {
   text-transform: uppercase;
-  margin-bottom: 25px;
 }
 p {
-  margin: 50px 0;
-  font-size: 15px;
-  line-height: 30px;
+  margin: 30px 0;
+  font-size: 13px;
+  line-height: 20px;
   font-weight: 400;
-}
-p.mid {
-  margin: 30px 0
 }
 p.small {
   font-size: 0.8em
@@ -104,7 +104,6 @@ p.small {
 /* pulsanti */
 .btn {
   font-weight: 400;
-  font-size: 13px;
   border: 2px solid #ff7a59;
   border-radius: 5px;
 }
@@ -118,6 +117,9 @@ p.small {
 }
 .btn.btn-small {
   padding: 10px;
+}
+.btn.btn-mid {
+  padding: 15px 20px;
 }
 .btn.btn-big {
   padding: 20px 35px;
@@ -197,11 +199,9 @@ p.small {
   width: 38%;
 }
 /* css header bottom */
-
 /* /css header */
 
 /* css main */
-
 /* css main top */
 #main-top {
   background-color: #f5f8fa;
@@ -213,8 +213,8 @@ p.small {
   text-align: center;
 }
 #main-top-top > img {
-  height: 180px;
-  margin-top: 50px;
+  width: 190px;
+  margin-top: 40px;
 }
 /* /css main-top-top */
 /* css main-top-mid */
@@ -227,49 +227,60 @@ p.small {
   height: 100%;
 }
 #book-image {
-  width: 140px;
+  width: 120px;
   height: 110px;
   background-image: url("../img/crm.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-.main-top-mid-left button {
-  margin-top: 20px;
-}
 #main-top-mid .main-top-mid-right {
   width: 70%;
   height: 100%;
-  padding: 40px;
+  padding: 60px 0;
 }
 #main-top-mid .main-top-mid-right hr {
   margin-top: 12px;
   border: 1px solid #33475b;
 }
+#main-top-mid .main-top-mid-right ul li {
+  margin-top: 30px;
+}
 /* /css main-top-mid */
 /* css main-top-bottom */
 #main-top-bottom .column {
   width: 25%;
-  margin: 50px 0;
-  padding: 20px 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px 40px 0 40px;
+}
+.column .column-top {
+  height: 280px;
+  text-align: center;
+  border-bottom: 2px solid #33475b;
+}
+.column .column-top > img {
+  width: 90px;
+  height: 90px;
+}
+.column .column-bottom {
   text-align: center;
 }
-#main-top-bottom .column:nth-child(2) {
-  margin: 50px 12.5%;
+.column .column-bottom h4 {
+  margin: 25px 0;
 }
-#main-top-bottom .column > img {
-  width: 100px;
-  margin-bottom: 10px;
-}
-#main-top-bottom .column > p {
-  margin-bottom: 70px;
-}
-#main-top-bottom .column > h4,
-#main-top-bottom .column > hr {
-  margin-bottom: 40px;
-}
-#main-top-bottom .column > ul li {
+.column .column-bottom ul {
   text-align: left;
+}
+.column .column-bottom ul li {
+  font-weight: bold;
+}
+.column .column-bottom button {
+  margin: 40px 0 20px 0;
+}
+#main-top-bottom .column:nth-child(2) {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
 }
 /* /css main-top-bottom */
 /* /css main top */
