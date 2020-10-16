@@ -14,6 +14,15 @@
   width: 80%;
   margin: auto;
 }
+.container-70 {
+  width: 70%;
+}
+.container-50 {
+  width: 50%;
+}
+.container-40 {
+  width: 40%;
+}
 .inline-block li {
   display: inline-block;
   padding: 0 10px;
@@ -66,12 +75,19 @@ h3 {
 }
 h4 {
   font-size: 20px;
+}
+h4.uppercase {
   text-transform: uppercase;
+  margin-bottom: 25px;
 }
 p {
   margin: 50px 0;
+  font-size: 15px;
   line-height: 30px;
   font-weight: 400;
+}
+p.mid {
+  margin: 30px 0
 }
 p.small {
   font-size: 0.8em
@@ -79,6 +95,10 @@ p.small {
 .white-box {
   background-color: #ffffff;
   border-radius: 5px;
+}
+.fas.fa-check-circle {
+  color: #fe7d61;
+  padding-right: 10px;
 }
 
 /* pulsanti */
@@ -190,6 +210,7 @@ p.small {
 #main-top-top {
   width: 55%;
   margin: auto;
+  text-align: center;
 }
 #main-top-top > img {
   height: 180px;
@@ -219,7 +240,11 @@ p.small {
 #main-top-mid .main-top-mid-right {
   width: 70%;
   height: 100%;
-  background-color: red;
+  padding: 40px;
+}
+#main-top-mid .main-top-mid-right hr {
+  margin-top: 12px;
+  border: 1px solid #33475b;
 }
 /* /css main-top-mid */
 /* css main-top-bottom */
