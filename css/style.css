@@ -47,6 +47,10 @@ h2 {
 h3 {
   font-size: 25px;
 }
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
 p {
   margin: 50px 0;
   line-height: 30px;
@@ -246,8 +250,6 @@ p {
 }
 #main-top-mid .right-size .block-crm-right h4 {
   width: 33%;
-  font-size: 20px;
-  text-transform: uppercase;
 }
 #main-top-mid .right-size .block-crm-right hr {
   width: 62%;
@@ -267,13 +269,27 @@ p {
 /* /css main-top-mid */
 /* css main-top-bottom */
 #main-top-bottom .column {
-  width: 30%;
-  height: 700px;
+  width: 25%;
   margin: 50px 0;
+  padding: 20px 50px;
+  text-align: center;
 }
 #main-top-bottom .column:nth-child(2) {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 50px 12.5%;
+}
+#main-top-bottom .column > img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+#main-top-bottom .column > p {
+  margin-bottom: 70px;
+}
+#main-top-bottom .column > h4,
+#main-top-bottom .column > hr {
+  margin-bottom: 40px;
+}
+#main-top-bottom .column > ul li {
+  text-align: left;
 }
 /* /css main-top-bottom */
 /* /css main top */
