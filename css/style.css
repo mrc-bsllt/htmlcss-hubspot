@@ -15,6 +15,10 @@
   width: 80%;
   margin: auto;
 }
+.container-75 {
+  width: 75%;
+  margin: auto;
+}
 .container-70 {
   width: 70%;
 }
@@ -286,8 +290,23 @@ p.small {
 /* /css main top */
 
 #main-mid {
-  height: 500px;
+  padding-bottom: 50px;
+  text-align: center;
   background-image: linear-gradient(to right, #00acb6, #00baa7);
+}
+#main-mid .container-80 {
+  padding-top: 40px;
+}
+#main-mid h2,
+#main-mid p {
+  color: #ffffff;
+}
+#main-mid .main-mid-bottom .row {
+  height: 150px;
+  background-color: red;
+}
+#main-mid .main-mid-bottom .row:first-child {
+  border-bottom: 1px solid #ffffff;
 }
 #main-bottom {
   height: 500px;
