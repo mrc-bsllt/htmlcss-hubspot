@@ -139,7 +139,7 @@ p.small {
   padding: 10px;
 }
 .btn.btn-mid {
-  padding: 15px 20px;
+  padding: 12px 23px;
 }
 .btn.btn-big {
   padding: 20px 35px;
@@ -245,7 +245,7 @@ p.small {
 
 /* css main-top-mid */
 #main-top-mid .white-box{
-  height: 300px;
+  height: 250px;
 }
 .white-box .learn-side {
   position: relative;
@@ -255,7 +255,6 @@ p.small {
 .white-box .learn-side  img {
   width: 120px;
   margin: 10px 0;
-  display: block;
 }
 .white-box .learn-side  a{
   display: block;
