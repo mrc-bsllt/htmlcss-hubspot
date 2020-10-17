@@ -19,6 +19,9 @@
   width: 60%;
   margin: auto;
 }
+.inline-block {
+  display: inline-block;
+}
 .inline-block li {
   display: inline-block;
   padding: 0 10px;
@@ -266,13 +269,24 @@ p.small {
   height: 100%;
 }
 .white-box .crm-side .center-align-y {
-  width: 70%;
+  width: 80%;
 }
 .crm-side p {
   margin: 25px 0;
 }
+.crm-side .text-rule-align {
+  height: 50px;
+  line-height: 50px;
+}
 .crm-side h4 {
+  width: 30%;
   margin-bottom: 30px;
+}
+.crm-side hr {
+  width: 68%;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  border-top: 2px solid #33475b;
 }
 /* /css main-top-mid */
 
