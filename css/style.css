@@ -81,6 +81,9 @@ h1.small {
 h2 {
   font-size: 25px;
 }
+h2.big {
+  font-size: 27px;
+}
 h3 {
   font-size: 20px;
 }
@@ -387,25 +390,47 @@ p.small {
   border-bottom: 1px solid #ffffff;
 }
 #main-bottom {
-  height: 500px;
   padding-top: 40px;
   background-color: #ffffff;
 }
 #main-bottom .row-60 .row-60-left {
-  width: 40%;
+  width: 38%;
 }
 .row-60 .row-60-left .text-container {
   width: 50%;
 }
 
 #main-bottom .row-60 .row-60-right {
-  width: 60%;
+  width: 62%;
 }
 .row-60-right .logo-row img {
-  width: calc(100% / 4 - 20px);
-  margin: 0 2.5px;
+  width: calc(100% / 4 - 25px);
+  margin: 0 3.125px;
   vertical-align: middle;
 }
+#main-bottom .container-70 {
+  height: 390px;
+  padding: 50px 0 0 0;
+}
+#main-bottom .left-bottom-side {
+width: 41%;
+}
+.left-bottom-side a {
+  display: inline-block;
+  margin: 10px 0;
+}
+#main-bottom .right-bottom-side {
+  position: relative;
+  width: 59%;
+  height: 100%;
+}
+.right-bottom-side img {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  width: 40%;
+}
+
 /* /css main mid bottom */
 
 /* /css main */
