@@ -141,9 +141,17 @@ p.small {
   color: #ffffff;
   background-color: #ff7a59;
 }
+.btn.btn-orange:hover {
+  background-color: #ffbcac;
+  border-color: #ffbcac;
+}
 .btn.btn-white {
   color: #ff7a59;
   background-color: #ffffff;
+}
+.btn.btn-white:hover {
+  background-color: #fff1ee;
+  border-color: #ff7a59;
 }
 .btn.btn-small {
   padding: 10px;
@@ -459,13 +467,44 @@ footer {
   font-weight: 500;
 }
 #btn-footer {
-  display: inline-block;
   color: #2d3e50;
+  font-weight: 700;
   background-color: #cbd6e2;
   font-size: 11px;
   padding: 10px;
   border: none;
-
+}
+#btn-footer:hover {
+  background-color: #eaf0f6;
+}
+.footer-column ul > li.social {
+  width: 70%;
+}
+.footer-column ul > li.social a {
+  width: calc(100% / 5 - 1%);
+  margin: 0 0.5%;
+}
+.footer-column ul > li.social a:first-child {
+  margin-left: 0;
+  margin-right: 0.5%;
+}
+.footer-column ul > li.social a:last-child {
+  margin-left: 0.5%;
+  margin-right: 0;
+}
+.footer-column ul > li > a > i {
+  color: #cbd6e2;
+  font-size: 13px;
+}
+.footer-column ul > li.social a:hover i {
+  color: #eaf0f6;
+}
+#languages {
+  text-align: center;
+}
+#languages .lang {
+  padding: 0 10px;
+  color: #cbd6e2;
 }
 #footer-bottom {
 }
