@@ -114,6 +114,10 @@ p.small {
   color: #ffffff;
   font-size: 20px;
 }
+.bold {
+  font-weight: bold;
+  padding-left: 2px;
+}
 .white-box {
   background-color: #ffffff;
   border-radius: 5px;
@@ -305,6 +309,10 @@ p.small {
 .column .column-top > img {
   width: 90px;
   height: 90px;
+  margin-bottom: 15px;
+}
+.column .column-top > p {
+  margin: 15px 0;
 }
 .column .column-bottom {
   text-align: center;
@@ -386,8 +394,17 @@ p.small {
 #main-bottom .row-60 .row-60-left {
   width: 40%;
 }
+.row-60 .row-60-left .text-container {
+  width: 50%;
+}
+
 #main-bottom .row-60 .row-60-right {
   width: 60%;
+}
+.row-60-right .logo-row img {
+  width: calc(100% / 4 - 20px);
+  margin: 0 2.5px;
+  vertical-align: middle;
 }
 /* /css main mid bottom */
 
