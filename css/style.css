@@ -343,54 +343,56 @@ nav li i {
 /* /css main top */
 
 /* css main mid */
-#main-mid {
+#teal-section {
   padding-bottom: 50px;
   text-align: center;
   background-image: linear-gradient(to right, #00acb6, #00baa7);
 }
-#main-mid .container-70 {
+
+/* css teal-title */
+#teal-section {
   padding-top: 40px;
 }
-#main-mid h2,
-#main-mid p {
+.teal-title h2,
+.teal-title p {
   color: #ffffff;
 }
-#main-mid p {
+.teal-title p {
   margin-bottom: 50px;
 }
+/* /css teal-title */
 
-/* css main mid bottom */
-#main-mid .main-mid-bottom .row {
+/* css teal box */
+.teal-box .teal-row {
   height: 150px;
 }
-.main-mid-bottom .row .square {
+.teal-row:first-child {
+  border-bottom: 1px solid #ffffff;
+}
+.teal-row > .square {
   position: relative;
   width: calc(100% / 4);
   height: 100%;
-}
-.main-mid-bottom .row .square {
   border-right: 1px solid #ffffff;
 }
-.row:last-child .square:first-child img {
+.teal-box .teal-row .square:last-child {
+  border-right: none;
+}
+.teal-row:last-child .square:first-child img {
   width: 130px;
 }
-.main-mid-bottom .row .square h5 {
+.square h5 {
   margin: 10px 0;
   line-height: 35px;
 }
-.main-mid-bottom .row .square h5 .entity {
+.square h5 .entity {
   padding-left: 5px;
   font-weight: 400;
   vertical-align: bottom;
 }
-.main-mid-bottom .row .square p.small {
-}
-.main-mid-bottom .row .square:last-child {
-  border-right: none;
-}
-#main-mid .main-mid-bottom .row:first-child {
-  border-bottom: 1px solid #ffffff;
-}
+/* /css teal box */
+
+/* css main bottom */
 #main-bottom {
   padding-top: 40px;
   background-color: #ffffff;
@@ -434,7 +436,7 @@ width: 41%;
   bottom: 50px;
   width: 40%;
 }
-/* /css main mid bottom */
+/* css main bottom */
 /* /css main */
 
 /* css footer */
