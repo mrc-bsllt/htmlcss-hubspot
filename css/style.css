@@ -253,7 +253,7 @@ nav li i {
 }
 /* /css main-title */
 
-/* css main-top-mid */
+/* css horizontal box */
 #horizontal-box .white-box{
   height: 250px;
 }
@@ -294,9 +294,19 @@ nav li i {
   margin-top: 25px;
   border-top: 2px solid #33475b;
 }
-/* /css main-top-mid */
+.right-box-side ul li::before,
+.column-bottom ul li::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background: url(../img/chek-list.svg) no-repeat;
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+/* /css horizontal box */
 
-/* css main-top-bottom */
+/* css sezione colonne */
 #column-section .column {
   width: 25%;
   margin-top: 40px;
@@ -334,22 +344,13 @@ nav li i {
   font-size: 12px;
   font-weight: 500;
 }
-.column-bottom ul li::before {
-  content: "";
-  width: 12px;
-  height: 12px;
-  background: url(../img/chek-list.svg) no-repeat;
-  display: inline-block;
-  padding-right: 10px;
-  vertical-align: middle;
-}
 .column-bottom button {
   margin: 40px 0 20px 0;
 }
-/* /css main-top-bottom */
+/* /css msezione colonne */
 /* /css main top */
 
-/* css main mid */
+/* css sfondo verde acqua */
 #teal-section {
   padding-bottom: 50px;
   text-align: center;
@@ -398,6 +399,7 @@ nav li i {
   vertical-align: bottom;
 }
 /* /css teal box */
+/* /sfondo verde acqua */
 
 /* css main bottom */
 #main-bottom {
