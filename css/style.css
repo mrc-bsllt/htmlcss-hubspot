@@ -272,11 +272,10 @@ p.small {
 }
 .white-box .learn-side  img {
   width: 120px;
-  margin: 10px 0;
 }
-.white-box .learn-side  a{
-  display: block;
-  margin-top: 10px;
+.white-box .learn-side  img,
+.white-box .learn-side  a {
+  margin: 10px 0;
 }
 .white-box .crm-side {
   position: relative;
@@ -424,7 +423,6 @@ p.small {
 width: 41%;
 }
 .left-bottom-side a {
-  display: inline-block;
   margin: 10px 0;
 }
 .left-bottom-side p.small {
@@ -489,7 +487,7 @@ footer a.legal-privacy {
 }
 .footer-column ul > li.social a {
   width: calc(100% / 5 - 1%);
-  margin: 0 0.5%;
+  margin: 0 0.5% 3% 0;
 }
 .footer-column ul > li.social a:first-child {
   margin-left: 0;
