@@ -538,4 +538,43 @@ footer a.legal-privacy {
   margin-left: 20px;
 }
 /* /css footer bottom */
+/* css banner */
+.banner {
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  z-index: 1;
+  width: 200px;
+  height: 160px;
+}
+.banner .white-box {
+  position: relative;
+  height: 90px;
+}
+.banner .white-box > i {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: #7c98b6;
+}
+.banner .white-box p {
+  color: #000000;
+  font-size: 10px;
+  margin: 0 10px;
+}
+.white-box .banner-mex p > i {
+  color: #000000;
+}
+.banner .help-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+.help-icon i {
+  font-size: 50px;
+  cursor: pointer;
+}
+/* /css banner */
+
 /* /css footer */
