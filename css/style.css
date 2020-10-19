@@ -13,10 +13,6 @@
   width: 70%;
   margin: auto;
 }
-.row-60 {
-  width: 60%;
-  margin: auto;
-}
 .inline-block {
   display: inline-block;
 }
@@ -73,14 +69,14 @@ button.btn:hover {
 h1 {
   font-size: 44px;
 }
-h1.small {
-  font-size: 38px;
-}
 h2 {
   font-size: 25px;
 }
 h2.big {
   font-size: 27px;
+}
+h2.very-big {
+  font-size: 38px;
 }
 h3 {
   font-size: 20px;
@@ -397,40 +393,44 @@ nav li i {
   padding-top: 40px;
   background-color: #ffffff;
 }
-#main-bottom .row-60 .row-60-left {
+.row-top {
+  width: 60%;
+  margin: auto;
+}
+.row-top .row-top-left {
   width: 38%;
 }
-.row-60 .row-60-left .text-container {
+.row-top-left .text-container {
   width: 50%;
 }
 
-#main-bottom .row-60 .row-60-right {
+.row-top .row-top-right {
   width: 62%;
 }
-.row-60-right .logo-row img {
+.row-top-right .logo-client-row img {
   width: calc(100% / 4 - 25px);
   margin: 0 3.125px;
   vertical-align: middle;
 }
-#main-bottom .container-70 {
+#main-bottom .row-bottom {
   height: 400px;
   padding: 50px 0 0 0;
 }
-#main-bottom .left-bottom-side {
+.row-bottom .row-bottom-left {
 width: 41%;
 }
-.left-bottom-side a {
+.row-bottom-left a {
   margin: 10px 0;
 }
-.left-bottom-side p.small {
+.row-bottom-left p.small {
   margin: 30px 0 0 0;
 }
-#main-bottom .right-bottom-side {
+.row-bottom .row-bottom-right {
   position: relative;
   width: 59%;
   height: 100%;
 }
-.right-bottom-side img {
+.row-bottom-right img {
   position: absolute;
   right: 0;
   bottom: 50px;
@@ -452,6 +452,7 @@ footer span,
 footer a.legal-privacy {
   color: #cbd6e2;
 }
+/* css footer top */
 #footer-top {
   padding: 40px 0 20px 0;
   border-bottom: 1px solid #7c98b6;
@@ -506,6 +507,9 @@ footer a.legal-privacy {
 #languages .lang {
   padding: 0 10px;
 }
+/* /css footer top */
+
+/* css footer bottom */
 #footer-bottom {
   padding: 30px 0;
 }
@@ -520,4 +524,5 @@ footer a.legal-privacy {
 .footer-bottom-right a {
   margin-left: 20px;
 }
+/* /css footer bottom */
 /* /css footer */
