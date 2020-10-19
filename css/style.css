@@ -8,7 +8,6 @@
 }
 
 /* css generale */
-
 /* spostamenti */
 .container-70 {
   width: 70%;
@@ -166,11 +165,9 @@ p.small {
   text-decoration: none;
 }
 /* /pulsanti */
-
 /* /css generale */
 
 /* css header */
-
 /* css header top */
 #header-top {
   width: 100%;
@@ -243,60 +240,59 @@ nav li i {
 
 
 /* css main */
-
 /* css main top */
 #main-top {
   background-color: #f5f8fa;
 }
-/* css main-top-top */
 
-#main-top-top {
+/* css main-title */
+#main-title {
   width: 55%;
   margin: auto;
   text-align: center;
 }
-#main-top-top > img {
+#main-title > img {
   width: 190px;
   margin-top: 40px;
 }
-/* /css main-top-top */
+/* /css main-title */
 
 /* css main-top-mid */
-#main-top-mid .white-box{
+#horizontal-box .white-box{
   height: 250px;
 }
-.white-box .learn-side {
+.white-box .left-box-side {
   position: relative;
   width: 30%;
   height: 100%;
 }
-.white-box .learn-side  img {
+.left-box-side  img {
   width: 120px;
 }
-.white-box .learn-side  img,
-.white-box .learn-side  a {
+.left-box-side  img,
+.left-box-side  a {
   margin: 10px 0;
 }
-.white-box .crm-side {
+.white-box .right-box-side {
   position: relative;
   width: 70%;
   height: 100%;
 }
-.white-box .crm-side .center-align-y {
+.right-box-side .center-align-y {
   width: 80%;
 }
-.crm-side p {
+.right-box-side p {
   margin: 25px 0;
 }
-.crm-side .text-rule-align {
+.right-box-side .text-rule-align {
   height: 50px;
   line-height: 50px;
 }
-.crm-side h4 {
+.right-box-side h4 {
   width: 30%;
   margin-bottom: 30px;
 }
-.crm-side hr {
+.right-box-side hr {
   width: 68%;
   margin-bottom: 0px;
   margin-top: 25px;
@@ -305,46 +301,45 @@ nav li i {
 /* /css main-top-mid */
 
 /* css main-top-bottom */
-#main-top-bottom .column {
+#column-section .column {
   width: 25%;
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 15px 40px 0 40px;
+}
+.column:nth-child(2) {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
 }
 .column .column-top {
   height: 280px;
   text-align: center;
   border-bottom: 2px solid #33475b;
 }
-.column .column-top > img {
+.column-top > img {
   width: 90px;
   height: 90px;
   margin-bottom: 15px;
 }
-.column .column-top > p {
+.column-top > p {
   margin: 15px 0;
 }
 .column .column-bottom {
   text-align: center;
 }
-.column .column-bottom h4 {
+.column-bottom h4 {
   margin: 25px 0;
 }
-.column .column-bottom ul {
+.column-bottom ul {
   text-align: left;
 }
-.column .column-bottom ul li {
+.column-bottom ul li {
   font-weight: bold;
 }
-.column .column-bottom button {
+.column-bottom button {
   margin: 40px 0 20px 0;
 }
-#main-top-bottom .column:nth-child(2) {
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-}
 /* /css main-top-bottom */
-
 /* /css main top */
 
 /* css main mid */
