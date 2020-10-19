@@ -329,8 +329,19 @@ nav li i {
 .column-bottom ul {
   text-align: left;
 }
+
 .column-bottom ul li {
-  font-weight: bold;
+  font-size: 12px;
+  font-weight: 500;
+}
+.column-bottom ul li::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url(../img/chek-list.svg) no-repeat;
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
 }
 .column-bottom button {
   margin: 40px 0 20px 0;
