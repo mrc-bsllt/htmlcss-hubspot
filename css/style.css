@@ -551,6 +551,13 @@ footer a.legal-privacy {
   position: relative;
   height: 90px;
 }
+#bot-avatar {
+  width: 40px;
+  position: absolute;
+  bottom: 100%;;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
 .banner .white-box > i {
   position: absolute;
   top: 5px;
